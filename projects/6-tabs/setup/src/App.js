@@ -36,6 +36,19 @@ function App() {
       <div className="jobs-center">
         {/* btn container */}
         {/* job info */}
+        <article className="job-info">
+          <h3>{title}</h3>
+          <h4>{company}</h4>
+          <p className="jon-date">{dates}</p>
+          {duties.map((duty, index) => {
+            return (
+              <div className="job-desc" key={index}>
+                <FaAngleDoubleRight className="job-icon" />
+                <p>{duty}</p>
+              </div>
+            );
+          })}
+        </article>
       </div>
     </section>
   );
