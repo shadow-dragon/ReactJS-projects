@@ -3,7 +3,7 @@ import people from "./data";
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
 
 const Review = () => {
-  const [index, setindex] = useState(0);
+  const [index, setIndex] = useState(0);
   const { name, job, image, text } = people[index];
 
   const checkNumber = (number) => {
@@ -17,17 +17,25 @@ const Review = () => {
   };
 
   const nextPerson = () => {
-    setindex((index) => {
+    setIndex((index) => {
       let newIndex = index + 1;
       return checkNumber(newIndex);
     });
   };
 
   const prevPerson = () => {
-    setindex((index) => {
+    setIndex((index) => {
       let newIndex = index - 1;
       return checkNumber(newIndex);
     });
+  };
+
+  const randomPerson = () => {
+    let randomNumber = Math.floor(Math.random() * people.length);
+    if (randomNumber === index) {
+      randomNumber = checkNumber(randomNumber + 1);
+    }
+    setIndex(randomNumber);
   };
 
   return (
@@ -49,7 +57,9 @@ const Review = () => {
           <FaChevronRight />
         </button>
       </div>
-      <button className="random-btn">surprise me</button>
+      <button className="random-btn" onClick={randomPerson}>
+        surprise me
+      </button>
     </article>
   );
 };
