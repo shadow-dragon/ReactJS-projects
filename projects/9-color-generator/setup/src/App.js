@@ -6,12 +6,16 @@ import Values from "values.js";
 function App() {
   const [color, setColor] = useState("");
   const [error, setError] = useState(false);
-  const [list, setList] = useState([]);
+  // 5 => 2 * (100% / 5 values) + 0% value
+  // 5 => 41 values
+  const [list, setList] = useState(new Values("#0288d1").all(5));
 
   const handleSubmit = (e) => {
     e.preventDefault();
     try {
-      let colors = new Values(color).all(10);
+      // 5 => 2 * (100% / 5 values) + 0% value
+      // 5 => 41 values
+      let colors = new Values(color).all(5);
       setList(colors);
     } catch (error) {
       setError(true);
