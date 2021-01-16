@@ -12,15 +12,21 @@ function App() {
     e.preventDefault();
     if (!name) {
       // display alert
+      showAlert(true, "danger", "please enter a value");
     } else if (name && isEditing) {
       // deal with edtiing
     } else {
-      // shoe alert
+      // show alert
       const newItem = { id: new Date().getTime().toString(), title: name };
       setList([...list, newItem]);
       setName("");
     }
   };
+
+  const showAlert = (show = false, type = "", msg = "") => {
+    setAlert({ show, type, msg });
+  };
+
   return (
     <section className="section-center">
       <form onSubmit={handleSubmit} className="grocery-form">
