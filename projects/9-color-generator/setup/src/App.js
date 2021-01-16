@@ -10,7 +10,14 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("hello");
+    try {
+      let colors = new Values(color).all(10);
+      setList(colors);
+    } catch (error) {
+      setError(true);
+      alert("Please insert a hex value");
+      console.log(error);
+    }
   };
 
   return (
@@ -23,6 +30,7 @@ function App() {
             value={color}
             onChange={(e) => setColor(e.target.value)}
             placeholder="#0288D1"
+            className={`${error ? "error" : null}`}
           />
           <button className="btn" type="submit">
             submit
