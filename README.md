@@ -25,32 +25,32 @@ Starter Code
 
 https://github.com/john-smilga/react-projects
 
-Project  1 - Birthday-Reminder
+[Project  1 - Birthday-Reminder](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/1-birthday-reminder)
 
-Project  2 - Tours
+[Project  2 - Tours](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/2-tours)
 
-Project  3 - Reviews
+[Project  3 - Reviews](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/3-reviews)
 
-Project  4 - Accordion
+[Project  4 - Accordion](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/4-accordion)
 
-Project  5 - Menu
+[Project  5 - Menu](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/5-menu)
 
-Project  6 - Tabs
+[Project  6 - Tabs](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/6-tabs)
 
-Project  7 - Slider
+[Project  7 - Slider](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/7-slider)
 
-Project  8 - Lorem-Ipsum
+[Project  8 - Lorem-Ipsum](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/8-lorem-ipsum)
 
-Project  9 - Color-Generator
+[Project  9 - Color-Generator](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/9-color-generator)
 
-Project 10 - Grocery-Bud
+[Project 10 - Grocery-Bud](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/10-grocery-bud)
 
-Project 11 - Navbar
+[Project 11 - Navbar](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/11-navbar)
 
-Project 12 - Sidebar-Modal
+[Project 12 - Sidebar-Modal](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/12-sidebar-modal)
 
-Project 13 - Stripe-Submenus
+[Project 13 - Stripe-Submenus](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/13-stripe-submenus)
 
-Project 14 - Cart
+[Project 14 - Cart](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/14-cart)
 
-Project 15 - Cocktails
+[Project 15 - Cocktails](https://github.com/shadow-dragon/ReactJS-projects/tree/master/projects/15-cocktails)
